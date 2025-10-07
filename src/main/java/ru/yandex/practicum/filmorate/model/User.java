@@ -7,11 +7,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Data
-public class Film {
+public class User {
     private Integer id;
+    private String email;
+    private String login;
     private String name;
-    private String description;
-    private LocalDate releaseDate;
-    private Integer duration;
-    private Set<Integer> likes = new HashSet<>();
+    private LocalDate birthday;
+    private Set<Integer> friends = new HashSet<>();
 }
